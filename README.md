@@ -18,7 +18,7 @@
 
 ---
 
-**Strapi Lucide Icons** adds a custom field to Strapi so editors can pick any Lucide icon from a searchable list. The saved value is the **icon name**, so you can render it anywhere on the client side with **lucide-react**, **lucide-svelte**, **lucide-vue**, **lucide-solid**, or any other Lucide package.
+**Strapi Lucide Icons** adds a custom field to Strapi so editors can pick any Lucide icon from a searchable list. The saved value is the **icon name**, so you can render it anywhere on the client side with **lucide-react**, **lucide-svelte**, **lucide-vue**, **lucide-solid**, or any other Lucide package.\n\nThis build uses **lucide-react 0.564.0**.
 
 ## ✨ Features
 
