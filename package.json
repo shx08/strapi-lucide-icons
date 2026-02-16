@@ -1,6 +1,6 @@
 {
   "name": "strapi-lucide-icons",
-  "version": "0.564.0",
+  "version": "1.0.0",
   "description": "Lucide icon picker custom field for Strapi.",
   "license": "MIT",
   "type": "commonjs",

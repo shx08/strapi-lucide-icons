@@ -1,3 +1,10 @@
+# 1.0.0 (2026-02-16)
+
+
+### Features
+
+* initial release ([606b77c](https://github.com/shx08/strapi-lucide-icons/commit/606b77c8c767ca1d01fb85dc3363e8e21b4630d8))
+
 # Changelog
 
 All notable changes to this project are documented in this file.  
