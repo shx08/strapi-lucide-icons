@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/shx08/strapi-lucide-icons/compare/v1.0.1...v1.1.0) (2026-02-16)
+
+
+### Features
+
+* initial release ([78f728c](https://github.com/shx08/strapi-lucide-icons/commit/78f728cebf734d4322a4ca0fe684143f4d898e7c))
+
 ## [1.0.1](https://github.com/shx08/strapi-lucide-icons/compare/v1.0.0...v1.0.1) (2026-02-16)
 
 
