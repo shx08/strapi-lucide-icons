@@ -9,7 +9,8 @@ module.exports = {
     ['@semantic-release/exec', { prepareCmd: 'npm run build && npm run verify' }],
 
     ['@semantic-release/npm', { npmPublish: true }],
-    ['@semantic-release/git', { assets: ['package.json', 'CHANGELOG.md'] }],
+    // Keep package.json unchanged in the repo; only commit the changelog
+    ['@semantic-release/git', { assets: ['CHANGELOG.md'] }],
     '@semantic-release/github',
   ],
 };
