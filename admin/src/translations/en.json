@@ -1,0 +1,17 @@
+{
+  "strapi-lucide-icons.input.label": "Lucide Icons",
+  "strapi-lucide-icons.input.description": "Pick a Lucide icon",
+  "strapi-lucide-icons.input.search": "Search icons",
+  "strapi-lucide-icons.input.search_placeholder": "Search by name (e.g. arrow-right)",
+  "strapi-lucide-icons.input.empty": "No icons match your search.",
+  "strapi-lucide-icons.input.selected": "Selected icon",
+  "strapi-lucide-icons.input.none": "No icon selected",
+  "strapi-lucide-icons.input.clear": "Clear",
+  "strapi-lucide-icons.input.browse": "Browse",
+  "strapi-lucide-icons.input.close": "Close",
+  "strapi-lucide-icons.input.showing": "Showing {count} of {total}",
+  "strapi-lucide-icons.form.attribute.item.requiredField": "Required field",
+  "strapi-lucide-icons.form.attribute.item.requiredField.description": "You won't be able to create an entry if this field is empty",
+  "strapi-lucide-icons.form.attribute.item.privateField": "Private field",
+  "strapi-lucide-icons.form.attribute.item.privateField.description": "This field will not show up in the API response"
+}

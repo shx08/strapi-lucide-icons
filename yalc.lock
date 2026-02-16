@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "packages": {
+    "strapi-lucide-icons": {
+      "signature": "97f734238ce98d8094ad5d0773f5b1f7",
+      "file": true
+    }
+  }
+}
