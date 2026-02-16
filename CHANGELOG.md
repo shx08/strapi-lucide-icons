@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/shx08/strapi-lucide-icons/compare/v1.0.0...v1.0.1) (2026-02-16)
+
+
+### Bug Fixes
+
+* package json version ([3892aa6](https://github.com/shx08/strapi-lucide-icons/commit/3892aa64e76cfcae548f9500cedd2f996731c661))
+
 # 1.0.0 (2026-02-16)
 
 
