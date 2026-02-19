@@ -1,6 +1,6 @@
 {
   "name": "strapi-lucide-icons",
-  "version": "0.564.0",
+  "version": "0.575.0",
   "description": "Lucide icon picker custom field for Strapi.",
   "license": "MIT",
   "type": "commonjs",
@@ -39,7 +39,7 @@
   "dependencies": {
     "@strapi/design-system": "^2.1.2",
     "@strapi/icons": "^2.1.2",
-    "lucide-react": "0.564.0",
+    "lucide-react": "0.575.0",
     "react-intl": "^7.1.13"
   },
   "devDependencies": {
