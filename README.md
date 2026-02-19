@@ -138,3 +138,8 @@ npm i strapi-lucide-icons
 ```bash
 yarn add strapi-lucide-icons
 ```
+
+## License
+
+- This project is licensed under the MIT License. See `LICENSE`.
+- It uses `lucide-react` (ISC). See `THIRD_PARTY_LICENSES.md`.

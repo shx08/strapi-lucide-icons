@@ -1,7 +1,19 @@
 {
   "name": "strapi-lucide-icons",
-  "version": "0.575.0",
+  "version": "0.575.1",
   "description": "Lucide icon picker custom field for Strapi.",
+  "keywords": [
+    "strapi",
+    "strapi-plugin",
+    "strapi-v5",
+    "strapi-custom-field",
+    "lucide",
+    "lucide-react",
+    "icons",
+    "icon-picker",
+    "headless-cms",
+    "cms"
+  ],
   "license": "MIT",
   "type": "commonjs",
   "exports": {
@@ -24,7 +36,8 @@
   "files": [
     "dist",
     "README.md",
-    "LICENSE"
+    "LICENSE",
+    "THIRD_PARTY_LICENSES.md"
   ],
   "scripts": {
     "update:lucide-categories": "node scripts/update-lucide-categories.js",
