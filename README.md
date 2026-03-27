@@ -46,11 +46,11 @@ The saved value is the **icon name** (e.g. `alarm-clock`, `chart-no-axes-gantt`)
 
 **Light theme**
 
-![Light Theme](./pictures/lucide-icons.white.gif)
+![Light Theme](https://github.com/shx08/strapi-lucide-icons/pictures/lucide-icons.white.gif)
 
 **Dark theme**
 
-![Dark Theme](./pictures/lucide-icons.dark.gif)
+![Dark Theme](https://github.com/shx08/strapi-lucide-icons/pictures/lucide-icons.dark.gif)
 
 ## 📱 Responsive
 
@@ -138,6 +138,12 @@ npm i strapi-lucide-icons
 ```bash
 yarn add strapi-lucide-icons
 ```
+
+## Support
+
+If this project helped you, you can support me here:
+
+[![Buy Me a Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/shx08)
 
 ## License
 
