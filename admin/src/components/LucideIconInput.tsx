@@ -17,7 +17,7 @@ import { type InputProps, useField } from '@strapi/strapi/admin';
 import styled from 'styled-components';
 import { Cross } from '@strapi/icons';
 import { getTranslation } from '../utils/getTranslation';
-import { LUCIDE_CATEGORIES } from '../data/lucideCategories';
+import { LUCIDE_CATEGORIES, LUCIDE_ICON_ALIASES } from '../data/lucideCategories';
 
 type StrapiChangeEvent = { target: { name: string; value: string; type?: string } };
 
@@ -312,7 +312,7 @@ const LucideIconInput = ({
   const searchRef = useRef<HTMLInputElement | null>(null);
 
   const allIcons = useMemo(() => {
-    return Object.keys(dynamicIconImportsTyped).sort();
+    return LUCIDE_CATEGORIES.find((category) => category.name === 'all')?.icons ?? [];
   }, []);
 
   const maxResults =
@@ -376,7 +376,14 @@ const LucideIconInput = ({
       return baseIcons.slice(0, maxResults);
     }
 
-    const results = baseIcons.filter((iconName) => iconName.includes(query));
+    const results = baseIcons.filter((iconName) => {
+      if (iconName.includes(query)) {
+        return true;
+      }
+
+      const aliases = LUCIDE_ICON_ALIASES[iconName] ?? [];
+      return aliases.some((alias) => alias.includes(query));
+    });
     return results.slice(0, maxResults);
   }, [activeIcons, maxResults, search]);
 
