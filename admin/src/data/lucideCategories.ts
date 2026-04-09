@@ -563,6 +563,10 @@ export const LUCIDE_ICON_ALIASES: Record<string, string[]> = {
   "square-dashed-mouse-pointer": [
     "mouse-pointer-square-dashed"
   ],
+  "square-dashed-text": [
+    "text-select",
+    "text-selection"
+  ],
   "square-divide": [
     "divide-square"
   ],
@@ -667,9 +671,6 @@ export const LUCIDE_ICON_ALIASES: Record<string, string[]> = {
   ],
   "text-initial": [
     "letter-text"
-  ],
-  "text-select": [
-    "text-selection"
   ],
   "text-wrap": [
     "wrap-text"
@@ -943,6 +944,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "bookmark",
       "bookmark-check",
       "bookmark-minus",
+      "bookmark-off",
       "bookmark-plus",
       "bookmark-x",
       "boom-box",
@@ -2135,6 +2137,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "square-dashed-bottom-code",
       "square-dashed-kanban",
       "square-dashed-mouse-pointer",
+      "square-dashed-text",
       "square-dashed-top-solid",
       "square-divide",
       "square-dot",
@@ -2243,7 +2246,6 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "text-initial",
       "text-quote",
       "text-search",
-      "text-select",
       "text-wrap",
       "theater",
       "thermometer",
@@ -2481,6 +2483,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "bookmark",
       "bookmark-check",
       "bookmark-minus",
+      "bookmark-off",
       "bookmark-plus",
       "bookmark-x",
       "building",
@@ -3117,10 +3120,10 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "sparkles",
       "spline-pointer",
       "square-dashed-mouse-pointer",
+      "square-dashed-text",
       "square-mouse-pointer",
       "stamp",
       "text-cursor",
-      "text-select",
       "wand",
       "wand-sparkles"
     ]
@@ -5620,6 +5623,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "square-bottom-dashed-scissors",
       "square-code",
       "square-dashed",
+      "square-dashed-text",
       "square-library",
       "square-minus",
       "square-pen",
@@ -5649,7 +5653,6 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "text-initial",
       "text-quote",
       "text-search",
-      "text-select",
       "text-wrap",
       "type",
       "type-outline",
