@@ -46,11 +46,11 @@ The saved value is the **icon name** (e.g. `alarm-clock`, `chart-no-axes-gantt`)
 
 **Light theme**
 
-![Light Theme](https://github.com/shx08/strapi-lucide-icons/pictures/lucide-icons.white.gif)
+![Light Theme](https://raw.githubusercontent.com/shx08/strapi-lucide-icons/refs/heads/main/pictures/lucide-icons.white.gif)
 
 **Dark theme**
 
-![Dark Theme](https://github.com/shx08/strapi-lucide-icons/pictures/lucide-icons.dark.gif)
+![Dark Theme](https://raw.githubusercontent.com/shx08/strapi-lucide-icons/refs/heads/main/pictures/lucide-icons.dark.gif)
 
 ## 📱 Responsive
 
