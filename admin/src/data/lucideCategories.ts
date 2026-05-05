@@ -1,729 +1,6 @@
 export type LucideCategory = { name: string; title: string; icon: string; icons: string[] };
 
-export const LUCIDE_ICON_ALIASES: Record<string, string[]> = {
-  "alarm-clock-check": [
-    "alarm-check"
-  ],
-  "alarm-clock-minus": [
-    "alarm-minus"
-  ],
-  "alarm-clock-plus": [
-    "alarm-plus"
-  ],
-  "arrow-down-0-1": [
-    "arrow-down-01"
-  ],
-  "arrow-down-1-0": [
-    "arrow-down-10"
-  ],
-  "arrow-down-a-z": [
-    "arrow-down-az"
-  ],
-  "arrow-down-wide-narrow": [
-    "sort-desc"
-  ],
-  "arrow-down-z-a": [
-    "arrow-down-za"
-  ],
-  "arrow-up-0-1": [
-    "arrow-up-01"
-  ],
-  "arrow-up-1-0": [
-    "arrow-up-10"
-  ],
-  "arrow-up-a-z": [
-    "arrow-up-az"
-  ],
-  "arrow-up-narrow-wide": [
-    "sort-asc"
-  ],
-  "arrow-up-z-a": [
-    "arrow-up-za"
-  ],
-  "axis-3d": [
-    "axis-3-d"
-  ],
-  "badge-check": [
-    "verified"
-  ],
-  "badge-question-mark": [
-    "badge-help"
-  ],
-  "between-horizontal-end": [
-    "between-horizonal-end"
-  ],
-  "between-horizontal-start": [
-    "between-horizonal-start"
-  ],
-  "book-dashed": [
-    "book-template"
-  ],
-  "braces": [
-    "curly-braces"
-  ],
-  "captions": [
-    "subtitles"
-  ],
-  "chart-area": [
-    "area-chart"
-  ],
-  "chart-bar": [
-    "bar-chart-horizontal"
-  ],
-  "chart-bar-big": [
-    "bar-chart-horizontal-big"
-  ],
-  "chart-candlestick": [
-    "candlestick-chart"
-  ],
-  "chart-column": [
-    "bar-chart-3"
-  ],
-  "chart-column-big": [
-    "bar-chart-big"
-  ],
-  "chart-column-increasing": [
-    "bar-chart-4"
-  ],
-  "chart-line": [
-    "line-chart"
-  ],
-  "chart-no-axes-column": [
-    "bar-chart-2"
-  ],
-  "chart-no-axes-column-increasing": [
-    "bar-chart"
-  ],
-  "chart-no-axes-gantt": [
-    "gantt-chart"
-  ],
-  "chart-pie": [
-    "pie-chart"
-  ],
-  "chart-scatter": [
-    "scatter-chart"
-  ],
-  "circle-alert": [
-    "alert-circle"
-  ],
-  "circle-arrow-down": [
-    "arrow-down-circle"
-  ],
-  "circle-arrow-left": [
-    "arrow-left-circle"
-  ],
-  "circle-arrow-out-down-left": [
-    "arrow-down-left-from-circle"
-  ],
-  "circle-arrow-out-down-right": [
-    "arrow-down-right-from-circle"
-  ],
-  "circle-arrow-out-up-left": [
-    "arrow-up-left-from-circle"
-  ],
-  "circle-arrow-out-up-right": [
-    "arrow-up-right-from-circle"
-  ],
-  "circle-arrow-right": [
-    "arrow-right-circle"
-  ],
-  "circle-arrow-up": [
-    "arrow-up-circle"
-  ],
-  "circle-check": [
-    "check-circle-2"
-  ],
-  "circle-check-big": [
-    "check-circle"
-  ],
-  "circle-chevron-down": [
-    "chevron-down-circle"
-  ],
-  "circle-chevron-left": [
-    "chevron-left-circle"
-  ],
-  "circle-chevron-right": [
-    "chevron-right-circle"
-  ],
-  "circle-chevron-up": [
-    "chevron-up-circle"
-  ],
-  "circle-divide": [
-    "divide-circle"
-  ],
-  "circle-gauge": [
-    "gauge-circle"
-  ],
-  "circle-minus": [
-    "minus-circle"
-  ],
-  "circle-parking": [
-    "parking-circle"
-  ],
-  "circle-parking-off": [
-    "parking-circle-off"
-  ],
-  "circle-pause": [
-    "pause-circle"
-  ],
-  "circle-percent": [
-    "percent-circle"
-  ],
-  "circle-play": [
-    "play-circle"
-  ],
-  "circle-plus": [
-    "plus-circle"
-  ],
-  "circle-power": [
-    "power-circle"
-  ],
-  "circle-question-mark": [
-    "circle-help",
-    "help-circle"
-  ],
-  "circle-slash-2": [
-    "circle-slashed"
-  ],
-  "circle-stop": [
-    "stop-circle"
-  ],
-  "circle-user": [
-    "user-circle"
-  ],
-  "circle-user-round": [
-    "user-circle-2"
-  ],
-  "circle-x": [
-    "x-circle"
-  ],
-  "clipboard-pen": [
-    "clipboard-edit"
-  ],
-  "clipboard-pen-line": [
-    "clipboard-signature"
-  ],
-  "cloud-download": [
-    "download-cloud"
-  ],
-  "cloud-upload": [
-    "upload-cloud"
-  ],
-  "code-xml": [
-    "code-2"
-  ],
-  "columns-2": [
-    "columns"
-  ],
-  "columns-3": [
-    "panels-left-right"
-  ],
-  "columns-3-cog": [
-    "columns-settings",
-    "table-config"
-  ],
-  "contact-round": [
-    "contact-2"
-  ],
-  "diamond-percent": [
-    "percent-diamond"
-  ],
-  "earth": [
-    "globe-2"
-  ],
-  "ellipsis": [
-    "more-horizontal"
-  ],
-  "ellipsis-vertical": [
-    "more-vertical"
-  ],
-  "file-axis-3d": [
-    "file-axis-3-d"
-  ],
-  "file-badge": [
-    "file-badge-2"
-  ],
-  "file-braces": [
-    "file-json"
-  ],
-  "file-braces-corner": [
-    "file-json-2"
-  ],
-  "file-chart-column": [
-    "file-bar-chart-2"
-  ],
-  "file-chart-column-increasing": [
-    "file-bar-chart"
-  ],
-  "file-chart-line": [
-    "file-line-chart"
-  ],
-  "file-chart-pie": [
-    "file-pie-chart"
-  ],
-  "file-check-corner": [
-    "file-check-2"
-  ],
-  "file-code-corner": [
-    "file-code-2"
-  ],
-  "file-cog": [
-    "file-cog-2"
-  ],
-  "file-exclamation-point": [
-    "file-warning"
-  ],
-  "file-headphone": [
-    "file-audio",
-    "file-audio-2"
-  ],
-  "file-key": [
-    "file-key-2"
-  ],
-  "file-lock": [
-    "file-lock-2"
-  ],
-  "file-minus-corner": [
-    "file-minus-2"
-  ],
-  "file-pen": [
-    "file-edit"
-  ],
-  "file-pen-line": [
-    "file-signature"
-  ],
-  "file-play": [
-    "file-video"
-  ],
-  "file-plus-corner": [
-    "file-plus-2"
-  ],
-  "file-question-mark": [
-    "file-question"
-  ],
-  "file-search-corner": [
-    "file-search-2"
-  ],
-  "file-signal": [
-    "file-volume-2"
-  ],
-  "file-type-corner": [
-    "file-type-2"
-  ],
-  "file-video-camera": [
-    "file-video-2"
-  ],
-  "file-x-corner": [
-    "file-x-2"
-  ],
-  "fingerprint-pattern": [
-    "fingerprint"
-  ],
-  "folder-cog": [
-    "folder-cog-2"
-  ],
-  "folder-pen": [
-    "folder-edit"
-  ],
-  "funnel": [
-    "filter"
-  ],
-  "funnel-x": [
-    "filter-x"
-  ],
-  "git-commit-horizontal": [
-    "git-commit"
-  ],
-  "grid-2x2": [
-    "grid-2-x-2"
-  ],
-  "grid-2x2-check": [
-    "grid-2-x-2-check"
-  ],
-  "grid-2x2-plus": [
-    "grid-2-x-2-plus"
-  ],
-  "grid-2x2-x": [
-    "grid-2-x-2-x"
-  ],
-  "grid-3x3": [
-    "grid",
-    "grid-3-x-3"
-  ],
-  "hand-grab": [
-    "grab"
-  ],
-  "hand-helping": [
-    "helping-hand"
-  ],
-  "house": [
-    "home"
-  ],
-  "ice-cream-bowl": [
-    "ice-cream-2"
-  ],
-  "ice-cream-cone": [
-    "ice-cream"
-  ],
-  "laptop-minimal": [
-    "laptop-2"
-  ],
-  "layers": [
-    "layers-3"
-  ],
-  "list-indent-decrease": [
-    "indent-decrease",
-    "outdent"
-  ],
-  "list-indent-increase": [
-    "indent",
-    "indent-increase"
-  ],
-  "loader-circle": [
-    "loader-2"
-  ],
-  "lock-keyhole-open": [
-    "unlock-keyhole"
-  ],
-  "lock-open": [
-    "unlock"
-  ],
-  "mail-question-mark": [
-    "mail-question"
-  ],
-  "map-pin-pen": [
-    "location-edit"
-  ],
-  "message-circle-question-mark": [
-    "message-circle-question"
-  ],
-  "mic-vocal": [
-    "mic-2"
-  ],
-  "move-3d": [
-    "move-3-d"
-  ],
-  "octagon-alert": [
-    "alert-octagon"
-  ],
-  "octagon-pause": [
-    "pause-octagon"
-  ],
-  "octagon-x": [
-    "x-octagon"
-  ],
-  "paintbrush-vertical": [
-    "paintbrush-2"
-  ],
-  "panel-bottom-dashed": [
-    "panel-bottom-inactive"
-  ],
-  "panel-left": [
-    "sidebar"
-  ],
-  "panel-left-close": [
-    "sidebar-close"
-  ],
-  "panel-left-dashed": [
-    "panel-left-inactive"
-  ],
-  "panel-left-open": [
-    "sidebar-open"
-  ],
-  "panel-right-dashed": [
-    "panel-right-inactive"
-  ],
-  "panel-top-dashed": [
-    "panel-top-inactive"
-  ],
-  "panels-top-left": [
-    "layout"
-  ],
-  "pen": [
-    "edit-2"
-  ],
-  "pen-line": [
-    "edit-3"
-  ],
-  "plug-zap": [
-    "plug-zap-2"
-  ],
-  "rectangle-ellipsis": [
-    "form-input"
-  ],
-  "rotate-3d": [
-    "rotate-3-d"
-  ],
-  "rows-2": [
-    "rows"
-  ],
-  "rows-3": [
-    "panels-top-bottom"
-  ],
-  "scale-3d": [
-    "scale-3-d"
-  ],
-  "send-horizontal": [
-    "send-horizonal"
-  ],
-  "shield-question-mark": [
-    "shield-question"
-  ],
-  "shield-x": [
-    "shield-close"
-  ],
-  "sliders-vertical": [
-    "sliders"
-  ],
-  "sparkles": [
-    "stars"
-  ],
-  "square-activity": [
-    "activity-square"
-  ],
-  "square-arrow-down": [
-    "arrow-down-square"
-  ],
-  "square-arrow-down-left": [
-    "arrow-down-left-square"
-  ],
-  "square-arrow-down-right": [
-    "arrow-down-right-square"
-  ],
-  "square-arrow-left": [
-    "arrow-left-square"
-  ],
-  "square-arrow-out-down-left": [
-    "arrow-down-left-from-square"
-  ],
-  "square-arrow-out-down-right": [
-    "arrow-down-right-from-square"
-  ],
-  "square-arrow-out-up-left": [
-    "arrow-up-left-from-square"
-  ],
-  "square-arrow-out-up-right": [
-    "arrow-up-right-from-square"
-  ],
-  "square-arrow-right": [
-    "arrow-right-square"
-  ],
-  "square-arrow-up": [
-    "arrow-up-square"
-  ],
-  "square-arrow-up-left": [
-    "arrow-up-left-square"
-  ],
-  "square-arrow-up-right": [
-    "arrow-up-right-square"
-  ],
-  "square-asterisk": [
-    "asterisk-square"
-  ],
-  "square-bottom-dashed-scissors": [
-    "scissors-square-dashed-bottom"
-  ],
-  "square-centerline-dashed-horizontal": [
-    "flip-horizontal"
-  ],
-  "square-centerline-dashed-vertical": [
-    "flip-vertical"
-  ],
-  "square-chart-gantt": [
-    "gantt-chart-square",
-    "square-gantt-chart"
-  ],
-  "square-check": [
-    "check-square-2"
-  ],
-  "square-check-big": [
-    "check-square"
-  ],
-  "square-chevron-down": [
-    "chevron-down-square"
-  ],
-  "square-chevron-left": [
-    "chevron-left-square"
-  ],
-  "square-chevron-right": [
-    "chevron-right-square"
-  ],
-  "square-chevron-up": [
-    "chevron-up-square"
-  ],
-  "square-code": [
-    "code-square"
-  ],
-  "square-dashed": [
-    "box-select"
-  ],
-  "square-dashed-kanban": [
-    "kanban-square-dashed"
-  ],
-  "square-dashed-mouse-pointer": [
-    "mouse-pointer-square-dashed"
-  ],
-  "square-dashed-text": [
-    "text-select",
-    "text-selection"
-  ],
-  "square-divide": [
-    "divide-square"
-  ],
-  "square-dot": [
-    "dot-square"
-  ],
-  "square-equal": [
-    "equal-square"
-  ],
-  "square-function": [
-    "function-square"
-  ],
-  "square-kanban": [
-    "kanban-square"
-  ],
-  "square-library": [
-    "library-square"
-  ],
-  "square-m": [
-    "m-square"
-  ],
-  "square-menu": [
-    "menu-square"
-  ],
-  "square-minus": [
-    "minus-square"
-  ],
-  "square-mouse-pointer": [
-    "inspect"
-  ],
-  "square-parking": [
-    "parking-square"
-  ],
-  "square-parking-off": [
-    "parking-square-off"
-  ],
-  "square-pen": [
-    "edit",
-    "pen-box",
-    "pen-square"
-  ],
-  "square-percent": [
-    "percent-square"
-  ],
-  "square-pi": [
-    "pi-square"
-  ],
-  "square-pilcrow": [
-    "pilcrow-square"
-  ],
-  "square-play": [
-    "play-square"
-  ],
-  "square-plus": [
-    "plus-square"
-  ],
-  "square-power": [
-    "power-square"
-  ],
-  "square-scissors": [
-    "scissors-square"
-  ],
-  "square-sigma": [
-    "sigma-square"
-  ],
-  "square-slash": [
-    "slash-square"
-  ],
-  "square-split-horizontal": [
-    "split-square-horizontal"
-  ],
-  "square-split-vertical": [
-    "split-square-vertical"
-  ],
-  "square-terminal": [
-    "terminal-square"
-  ],
-  "square-user": [
-    "user-square"
-  ],
-  "square-user-round": [
-    "user-square-2"
-  ],
-  "square-x": [
-    "x-square"
-  ],
-  "test-tube-diagonal": [
-    "test-tube-2"
-  ],
-  "text-align-center": [
-    "align-center"
-  ],
-  "text-align-end": [
-    "align-right"
-  ],
-  "text-align-justify": [
-    "align-justify"
-  ],
-  "text-align-start": [
-    "align-left",
-    "text"
-  ],
-  "text-initial": [
-    "letter-text"
-  ],
-  "text-wrap": [
-    "wrap-text"
-  ],
-  "tram-front": [
-    "train"
-  ],
-  "tree-palm": [
-    "palmtree"
-  ],
-  "triangle-alert": [
-    "alert-triangle"
-  ],
-  "tv-minimal": [
-    "tv-2"
-  ],
-  "university": [
-    "school-2"
-  ],
-  "user-round": [
-    "user-2"
-  ],
-  "user-round-check": [
-    "user-check-2"
-  ],
-  "user-round-cog": [
-    "user-cog-2"
-  ],
-  "user-round-minus": [
-    "user-minus-2"
-  ],
-  "user-round-plus": [
-    "user-plus-2"
-  ],
-  "user-round-x": [
-    "user-x-2"
-  ],
-  "users-round": [
-    "users-2"
-  ],
-  "utensils": [
-    "fork-knife"
-  ],
-  "utensils-crossed": [
-    "fork-knife-crossed"
-  ],
-  "wallet-minimal": [
-    "wallet-2"
-  ],
-  "wand-sparkles": [
-    "wand-2"
-  ]
-};
+export const LUCIDE_ICON_ALIASES: Record<string, string[]> = {};
 
 export const LUCIDE_CATEGORIES: LucideCategory[] = [
   {
@@ -828,6 +105,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "arrow-up-z-a",
       "arrows-up-from-line",
       "asterisk",
+      "astroid",
       "at-sign",
       "atom",
       "audio-lines",
@@ -886,6 +164,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "beer",
       "beer-off",
       "bell",
+      "bell-check",
       "bell-dot",
       "bell-electric",
       "bell-minus",
@@ -1397,6 +676,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "fold-vertical",
       "folder",
       "folder-archive",
+      "folder-bookmark",
       "folder-check",
       "folder-clock",
       "folder-closed",
@@ -1528,6 +808,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "heart-off",
       "heart-plus",
       "heart-pulse",
+      "heart-x",
       "heater",
       "helicopter",
       "hexagon",
@@ -1592,6 +873,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "laugh",
       "layers",
       "layers-2",
+      "layers-minus",
       "layers-plus",
       "layout-dashboard",
       "layout-grid",
@@ -1953,6 +1235,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "repeat",
       "repeat-1",
       "repeat-2",
+      "repeat-off",
       "replace",
       "replace-all",
       "reply",
@@ -2262,6 +1545,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "ticket-x",
       "tickets",
       "tickets-plane",
+      "timeline",
       "timer",
       "timer-off",
       "timer-reset",
@@ -2379,10 +1663,11 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "warehouse",
       "washing-machine",
       "watch",
-      "waves",
       "waves-arrow-down",
       "waves-arrow-up",
+      "waves-horizontal",
       "waves-ladder",
+      "waves-vertical",
       "waypoints",
       "webcam",
       "webhook",
@@ -2478,6 +1763,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "badge-info",
       "ban",
       "bell",
+      "bell-check",
       "bell-dot",
       "book-user",
       "bookmark",
@@ -2805,6 +2091,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "refresh-cw-off",
       "repeat",
       "repeat-2",
+      "repeat-off",
       "rewind",
       "rotate-ccw",
       "rotate-ccw-square",
@@ -3182,6 +2469,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "grid-3x2",
       "grid-3x3",
       "hand-grab",
+      "heart-x",
       "highlighter",
       "iteration-ccw",
       "iteration-cw",
@@ -3191,6 +2479,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "lasso-select",
       "layers",
       "layers-2",
+      "layers-minus",
       "layers-plus",
       "layout-dashboard",
       "layout-grid",
@@ -3840,6 +3129,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "files",
       "folder",
       "folder-archive",
+      "folder-bookmark",
       "folder-check",
       "folder-clock",
       "folder-closed",
@@ -4365,6 +3655,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "hand-grab",
       "layers",
       "layers-2",
+      "layers-minus",
       "layers-plus",
       "layout-dashboard",
       "layout-grid",
@@ -4474,6 +3765,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
     "icon": "divide",
     "icons": [
       "asterisk",
+      "astroid",
       "badge-percent",
       "box",
       "calculator",
@@ -4656,6 +3948,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "heart-minus",
       "heart-off",
       "heart-plus",
+      "heart-x",
       "image",
       "image-down",
       "image-minus",
@@ -4711,6 +4004,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "repeat",
       "repeat-1",
       "repeat-2",
+      "repeat-off",
       "rewind",
       "satellite-dish",
       "scan-eye",
@@ -4744,7 +4038,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "volume-2",
       "volume-off",
       "volume-x",
-      "waves"
+      "waves-horizontal"
     ]
   },
   {
@@ -4867,7 +4161,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "utensils",
       "utensils-crossed",
       "warehouse",
-      "waves",
+      "waves-horizontal",
       "waypoints"
     ]
   },
@@ -4882,6 +4176,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "alarm-clock-off",
       "alarm-clock-plus",
       "bell",
+      "bell-check",
       "bell-dot",
       "bell-electric",
       "bell-minus",
@@ -5135,6 +4430,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
     "title": "Shapes",
     "icon": "triangle",
     "icons": [
+      "astroid",
       "badge",
       "badge-question-mark",
       "blocks",
@@ -5158,6 +4454,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "dot",
       "ellipse",
       "heart",
+      "heart-x",
       "hexagon",
       "lens-concave",
       "lens-convex",
@@ -5269,6 +4566,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "heart-minus",
       "heart-off",
       "heart-plus",
+      "heart-x",
       "message-circle",
       "message-circle-check",
       "message-circle-code",
@@ -5406,9 +4704,10 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "trees",
       "utility-pole",
       "vegan",
-      "waves",
       "waves-arrow-down",
       "waves-arrow-up",
+      "waves-horizontal",
+      "waves-vertical",
       "wind",
       "wind-arrow-down"
     ]
@@ -5727,6 +5026,7 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "metronome",
       "square-chart-gantt",
       "sunrise",
+      "timeline",
       "timer",
       "timer-off",
       "timer-reset",
@@ -6002,9 +5302,10 @@ export const LUCIDE_CATEGORIES: LucideCategory[] = [
       "tornado",
       "umbrella",
       "umbrella-off",
-      "waves",
       "waves-arrow-down",
       "waves-arrow-up",
+      "waves-horizontal",
+      "waves-vertical",
       "wind",
       "wind-arrow-down",
       "zap",
